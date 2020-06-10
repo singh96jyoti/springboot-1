@@ -64,19 +64,19 @@
 			<version>2.9.2</version>
 		</dependency>
 	</dependencies>
-	<distributionManagement>
+	<!--distributionManagement>
            <snapshotRepository>
               <id>nexus</id>
               <url>http://13.233.35.82:8081/nexus/content/repositories/snapshots</url>
            </snapshotRepository>
-         </distributionManagement>
+         </distributionManagement>-->
 	
-	<!--distributionManagement>
+	<distributionManagement>
           <snapshotRepository>
             <id>artifactory</id>
-            <url>http://15.206.146.220:8081/artifactory/libs-snapshot-local</url>
+            <url>http://3.134.101.184:8081/artifactory/libs-snapshot-local</url>
           </snapshotRepository>
-        </distributionManagement>-->
+        </distributionManagement>
 
 	<build>
 		<plugins>
